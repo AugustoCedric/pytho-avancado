@@ -26,13 +26,15 @@ Antes de executar o projeto, você precisa ter o Python 3.x instalado, além das
 
 Para instalar as dependências, você pode usar o seguinte comando:
 
-```bash
+
 pip install requests beautifulsoup4
 
+
 ## Informações do Autor
-### Nome: Augusto Cedric
-### Curso: Fullstack Python
-### Instituição: EBAC
+- **Nome**: Augusto Cedric
+- **Curso**: Fullstack Python
+- **Instituição**: EBAC
+
 
 ## Instalação
 ### Clone o repositório:
@@ -84,7 +86,8 @@ pip install requests beautifulsoup4
 # Threading e Processamento
 ## Este projeto utiliza threading para otimizar a extração de dados. A classe ThreadPoolExecutor do módulo concurrent.futures é utilizada para criar um pool de threads que permite executar várias solicitações de extração simultaneamente. Isso melhora o desempenho e reduz o tempo total de execução, especialmente ao lidar com um grande número de URLs.
 
+
 ### Vantagens do Uso de Threads
 ### Desempenho Melhorado: O uso de threads permite que múltiplas solicitações sejam feitas ao mesmo tempo, aproveitando a latência das operações de rede.
 ### Eficiência de Tempo: Em vez de processar cada filme sequencialmente, as threads ajudam a reduzir o tempo total de execução ao lidar com várias tarefas simultaneamente.
-```
+``` 
